@@ -1,0 +1,35 @@
+[2024-10-04T19:21:59.210+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-04T19:21:59.256+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: rocket.download_launches manual__2024-10-04T19:21:47.633034+00:00 [queued]>
+[2024-10-04T19:21:59.278+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: rocket.download_launches manual__2024-10-04T19:21:47.633034+00:00 [queued]>
+[2024-10-04T19:21:59.280+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-04T19:21:59.323+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): download_launches> on 2024-10-04 19:21:47.633034+00:00
+[2024-10-04T19:21:59.354+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=646) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-04T19:21:59.358+0000] {standard_task_runner.py:72} INFO - Started process 648 to run task
+[2024-10-04T19:21:59.352+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'rocket', 'download_launches', 'manual__2024-10-04T19:21:47.633034+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/rockets/rockets.py', '--cfg-path', '/tmp/tmp3f27uybj']
+[2024-10-04T19:21:59.366+0000] {standard_task_runner.py:105} INFO - Job 11: Subtask download_launches
+[2024-10-04T19:21:59.589+0000] {task_command.py:467} INFO - Running <TaskInstance: rocket.download_launches manual__2024-10-04T19:21:47.633034+00:00 [running]> on host 30318035dc43
+[2024-10-04T19:21:59.893+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='rocket' AIRFLOW_CTX_TASK_ID='download_launches' AIRFLOW_CTX_EXECUTION_DATE='2024-10-04T19:21:47.633034+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-04T19:21:47.633034+00:00'
+[2024-10-04T19:21:59.897+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-04T19:21:59.899+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-04T19:21:59.900+0000] {logging_mixin.py:190} INFO - Current task name:download_launches state:running start_date:2024-10-04 19:21:59.257936+00:00
+[2024-10-04T19:21:59.901+0000] {logging_mixin.py:190} INFO - Dag name:rocket and current dag run status:running
+[2024-10-04T19:21:59.902+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-04T19:21:59.906+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-10-04T19:21:59.909+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'curl -o /opt/***/dags/rockets/launches/launches.json -L https://ll.thespacedevs.com/2.0.0/launch/upcoming']
+[2024-10-04T19:21:59.957+0000] {subprocess.py:86} INFO - Output:
+[2024-10-04T19:21:59.999+0000] {subprocess.py:93} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-10-04T19:22:00.017+0000] {subprocess.py:93} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-10-04T19:22:01.063+0000] {subprocess.py:93} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+[2024-10-04T19:22:02.207+0000] {subprocess.py:93} INFO -  29 27979   29  8192    0     0   3750      0  0:00:07  0:00:02  0:00:05  3750100 27979  100 27979    0     0  12669      0  0:00:02  0:00:02 --:--:--  805k
+[2024-10-04T19:22:02.217+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-10-04T19:22:02.273+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-04T19:22:02.274+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=rocket, task_id=download_launches, run_id=manual__2024-10-04T19:21:47.633034+00:00, execution_date=20241004T192147, start_date=20241004T192159, end_date=20241004T192202
+[2024-10-04T19:22:02.296+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-10-04T19:22:02.297+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-10-04T19:22:02.300+0000] {logging_mixin.py:190} INFO - Dag name:rocket queued_at:2024-10-04 19:21:47.705951+00:00
+[2024-10-04T19:22:02.301+0000] {logging_mixin.py:190} INFO - Task hostname:30318035dc43 operator:BashOperator
+[2024-10-04T19:22:02.354+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-04T19:22:02.417+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-04T19:22:02.431+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,1599 @@
+[2024-10-19T20:47:50.276+0000] {processor.py:186} INFO - Started process (PID=23242) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:47:50.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:47:50.283+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:47:50.282+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:47:50.364+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:47:50.355+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 4, in <module>
+    from includes.get_data import check_file_exists, download_file
+ModuleNotFoundError: No module named 'includes'
+[2024-10-19T20:47:50.373+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:47:50.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.150 seconds
+[2024-10-19T20:48:20.703+0000] {processor.py:186} INFO - Started process (PID=23305) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:48:20.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:48:20.707+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:48:20.707+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:48:20.739+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:48:20.732+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 4, in <module>
+    from includes.get_data import check_file_exists, download_file
+ModuleNotFoundError: No module named 'includes'
+[2024-10-19T20:48:20.742+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:48:20.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.080 seconds
+[2024-10-19T20:48:51.442+0000] {processor.py:186} INFO - Started process (PID=23367) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:48:51.445+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:48:51.447+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:48:51.446+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:48:51.487+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:48:51.480+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 4, in <module>
+    from includes.get_data import check_file_exists, download_file
+ModuleNotFoundError: No module named 'includes'
+[2024-10-19T20:48:51.490+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:48:51.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.111 seconds
+[2024-10-19T20:49:21.832+0000] {processor.py:186} INFO - Started process (PID=23431) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:49:21.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:49:21.837+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:49:21.836+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:49:21.865+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:49:21.859+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 4, in <module>
+    from includes.get_data import check_file_exists, download_file
+ModuleNotFoundError: No module named 'includes'
+[2024-10-19T20:49:21.868+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:49:21.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.099 seconds
+[2024-10-19T20:49:24.856+0000] {processor.py:186} INFO - Started process (PID=23443) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:49:24.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:49:24.861+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:49:24.861+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:49:24.920+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:49:24.910+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 4, in <module>
+    from .includes.get_data import check_file_exists, download_file
+ImportError: attempted relative import with no known parent package
+[2024-10-19T20:49:24.924+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:49:24.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.129 seconds
+[2024-10-19T20:49:55.824+0000] {processor.py:186} INFO - Started process (PID=23505) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:49:55.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:49:55.828+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:49:55.827+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:49:55.859+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:49:55.853+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 4, in <module>
+    from .includes.get_data import check_file_exists, download_file
+ImportError: attempted relative import with no known parent package
+[2024-10-19T20:49:55.862+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:49:55.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.111 seconds
+[2024-10-19T20:50:26.605+0000] {processor.py:186} INFO - Started process (PID=23569) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:50:26.614+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:50:26.617+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:50:26.617+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:50:26.696+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:50:26.689+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 4, in <module>
+    from .includes.get_data import check_file_exists, download_file
+ImportError: attempted relative import with no known parent package
+[2024-10-19T20:50:26.703+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:50:26.781+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.198 seconds
+[2024-10-19T20:50:37.523+0000] {processor.py:186} INFO - Started process (PID=23596) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:50:37.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:50:37.527+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:50:37.526+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:50:37.573+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:50:37.565+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 4, in <module>
+    from includes.get_data import check_file_exists, download_file
+ModuleNotFoundError: No module named 'includes'
+[2024-10-19T20:50:37.576+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:50:37.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.103 seconds
+[2024-10-19T20:51:07.901+0000] {processor.py:186} INFO - Started process (PID=23659) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:51:07.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:51:07.904+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:51:07.904+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:51:07.933+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:51:07.928+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 4, in <module>
+    from includes.get_data import check_file_exists, download_file
+ModuleNotFoundError: No module named 'includes'
+[2024-10-19T20:51:07.935+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:51:07.968+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.078 seconds
+[2024-10-19T20:51:38.693+0000] {processor.py:186} INFO - Started process (PID=23722) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:51:38.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:51:38.708+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:51:38.707+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:51:38.738+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:51:38.732+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 4, in <module>
+    from includes.get_data import check_file_exists, download_file
+ModuleNotFoundError: No module named 'includes'
+[2024-10-19T20:51:38.741+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:51:38.778+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.124 seconds
+[2024-10-19T20:52:07.040+0000] {processor.py:186} INFO - Started process (PID=23779) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:52:07.042+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:52:07.045+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:52:07.044+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:52:07.186+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:52:07.176+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 4, in <module>
+    from includes.get_data import check_file_exists, download_file  # Absolute import
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'includes'
+[2024-10-19T20:52:07.190+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:52:07.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.274 seconds
+[2024-10-19T20:52:38.011+0000] {processor.py:186} INFO - Started process (PID=23842) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:52:38.012+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:52:38.015+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:52:38.014+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:52:38.056+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:52:38.048+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 4, in <module>
+    from includes.get_data import check_file_exists, download_file  # Absolute import
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'includes'
+[2024-10-19T20:52:38.059+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:52:38.103+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.107 seconds
+[2024-10-19T20:53:08.565+0000] {processor.py:186} INFO - Started process (PID=23906) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:53:08.566+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:53:08.569+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:53:08.568+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:53:08.596+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:53:08.589+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 4, in <module>
+    from includes.get_data import check_file_exists, download_file  # Absolute import
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'includes'
+[2024-10-19T20:53:08.600+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:53:08.635+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.081 seconds
+[2024-10-19T20:53:31.404+0000] {processor.py:186} INFO - Started process (PID=23949) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:53:31.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:53:31.411+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:53:31.410+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:53:31.465+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:53:31.782+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:53:31.782+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T20:53:31.850+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:53:31.849+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 20:00:00+00:00, run_after=2024-10-19 21:00:00+00:00
+[2024-10-19T20:53:31.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.503 seconds
+[2024-10-19T20:54:02.142+0000] {processor.py:186} INFO - Started process (PID=24012) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:54:02.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:54:02.147+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:54:02.146+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:54:02.191+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:54:02.241+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:54:02.241+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T20:54:02.299+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:54:02.299+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 20:00:00+00:00, run_after=2024-10-19 21:00:00+00:00
+[2024-10-19T20:54:02.357+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.226 seconds
+[2024-10-19T20:54:32.828+0000] {processor.py:186} INFO - Started process (PID=24075) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:54:32.833+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:54:32.836+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:54:32.836+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:54:32.903+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:54:32.956+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:54:32.955+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T20:54:33.020+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:54:33.019+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 20:00:00+00:00, run_after=2024-10-19 21:00:00+00:00
+[2024-10-19T20:54:33.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.260 seconds
+[2024-10-19T20:54:37.740+0000] {processor.py:186} INFO - Started process (PID=24082) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:54:37.742+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:54:37.745+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:54:37.744+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:54:37.821+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:54:37.861+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:54:37.861+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T20:54:37.901+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:54:37.901+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 20:00:00+00:00, run_after=2024-10-19 21:00:00+00:00
+[2024-10-19T20:54:37.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.224 seconds
+[2024-10-19T20:54:40.086+0000] {processor.py:186} INFO - Started process (PID=24095) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:54:40.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:54:40.090+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:54:40.090+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:54:40.145+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:54:40.181+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:54:40.181+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T20:54:40.241+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:54:40.241+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 20:00:00+00:00, run_after=2024-10-19 21:00:00+00:00
+[2024-10-19T20:54:40.307+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.236 seconds
+[2024-10-19T20:55:10.835+0000] {processor.py:186} INFO - Started process (PID=24158) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:55:10.837+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:55:10.839+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:55:10.839+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:55:10.871+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:55:10.869+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 77
+    CREATE TABLE pageview_counts (
+           ^^^^^
+SyntaxError: invalid syntax
+[2024-10-19T20:55:10.872+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:55:10.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.096 seconds
+[2024-10-19T20:55:41.817+0000] {processor.py:186} INFO - Started process (PID=24216) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:55:41.818+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:55:41.820+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:55:41.820+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:55:41.849+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:55:41.847+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 77
+    CREATE TABLE pageview_counts (
+           ^^^^^
+SyntaxError: invalid syntax
+[2024-10-19T20:55:41.850+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:55:41.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.089 seconds
+[2024-10-19T20:56:12.682+0000] {processor.py:186} INFO - Started process (PID=24277) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:56:12.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:56:12.688+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:56:12.687+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:56:12.780+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:56:12.777+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 77
+    CREATE TABLE pageview_counts (
+           ^^^^^
+SyntaxError: invalid syntax
+[2024-10-19T20:56:12.781+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:56:12.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.203 seconds
+[2024-10-19T20:56:45.596+0000] {processor.py:186} INFO - Started process (PID=24346) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:56:45.608+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:56:45.632+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:56:45.624+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:56:45.755+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:56:45.740+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 77
+    CREATE TABLE pageview_counts (
+           ^^^^^
+SyntaxError: invalid syntax
+[2024-10-19T20:56:45.757+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:56:45.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.381 seconds
+[2024-10-19T20:57:16.531+0000] {processor.py:186} INFO - Started process (PID=24409) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:57:16.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:57:16.539+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:57:16.537+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:57:16.595+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:57:16.593+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 77
+    CREATE TABLE pageview_counts (
+           ^^^^^
+SyntaxError: invalid syntax
+[2024-10-19T20:57:16.597+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:57:16.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.149 seconds
+[2024-10-19T20:57:47.338+0000] {processor.py:186} INFO - Started process (PID=24471) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:57:47.340+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:57:47.343+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:57:47.342+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:57:47.409+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:57:47.406+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 77
+    CREATE TABLE pageview_counts (
+           ^^^^^
+SyntaxError: invalid syntax
+[2024-10-19T20:57:47.410+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:57:47.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.142 seconds
+[2024-10-19T20:58:17.880+0000] {processor.py:186} INFO - Started process (PID=24533) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:58:17.882+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:58:17.885+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:58:17.884+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:58:17.914+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:58:17.912+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 77
+    CREATE TABLE pageview_counts (
+           ^^^^^
+SyntaxError: invalid syntax
+[2024-10-19T20:58:17.915+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:58:17.954+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.089 seconds
+[2024-10-19T20:58:48.077+0000] {processor.py:186} INFO - Started process (PID=24593) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:58:48.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:58:48.084+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:58:48.083+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:58:48.121+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:58:48.120+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 77
+    CREATE TABLE pageview_counts (
+           ^^^^^
+SyntaxError: invalid syntax
+[2024-10-19T20:58:48.122+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:58:48.166+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.100 seconds
+[2024-10-19T20:59:18.659+0000] {processor.py:186} INFO - Started process (PID=24656) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:59:18.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:59:18.665+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:59:18.665+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:59:18.710+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:59:18.707+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 77
+    CREATE TABLE pageview_counts (
+           ^^^^^
+SyntaxError: invalid syntax
+[2024-10-19T20:59:18.711+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:59:18.755+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.108 seconds
+[2024-10-19T20:59:48.990+0000] {processor.py:186} INFO - Started process (PID=24718) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:59:48.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T20:59:48.995+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:59:48.995+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:59:49.030+0000] {logging_mixin.py:190} INFO - [2024-10-19T20:59:49.029+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 77
+    CREATE TABLE pageview_counts (
+           ^^^^^
+SyntaxError: invalid syntax
+[2024-10-19T20:59:49.032+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T20:59:49.086+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.109 seconds
+[2024-10-19T21:00:19.328+0000] {processor.py:186} INFO - Started process (PID=24781) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:00:19.329+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:00:19.332+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:00:19.331+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:00:19.357+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:00:19.355+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 77
+    CREATE TABLE pageview_counts (
+           ^^^^^
+SyntaxError: invalid syntax
+[2024-10-19T21:00:19.358+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:00:19.396+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.080 seconds
+[2024-10-19T21:00:49.672+0000] {processor.py:186} INFO - Started process (PID=24844) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:00:49.674+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:00:49.677+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:00:49.677+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:00:49.749+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:00:49.746+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 77
+    CREATE TABLE pageview_counts (
+           ^^^^^
+SyntaxError: invalid syntax
+[2024-10-19T21:00:49.750+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:00:49.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.140 seconds
+[2024-10-19T21:01:14.062+0000] {processor.py:186} INFO - Started process (PID=24895) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:01:14.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:01:14.069+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:01:14.066+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:01:14.135+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:01:14.529+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:01:14.529+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:01:14.593+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:01:14.593+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 20:00:00+00:00, run_after=2024-10-19 21:00:00+00:00
+[2024-10-19T21:01:14.657+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.607 seconds
+[2024-10-19T21:01:31.273+0000] {processor.py:186} INFO - Started process (PID=24932) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:01:31.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:01:31.277+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:01:31.277+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:01:31.309+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:01:31.306+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 78
+    result = dict.fromkeys(pagenames, 0) B
+                                         ^
+SyntaxError: invalid syntax
+[2024-10-19T21:01:31.310+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:01:31.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.113 seconds
+[2024-10-19T21:01:32.772+0000] {processor.py:186} INFO - Started process (PID=24935) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:01:32.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:01:32.776+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:01:32.775+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:01:32.807+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:01:32.805+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 78
+    result = dict.fromkeys(pagenames, 0) B
+                                         ^
+SyntaxError: invalid syntax
+[2024-10-19T21:01:32.808+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:01:32.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.079 seconds
+[2024-10-19T21:01:44.307+0000] {processor.py:186} INFO - Started process (PID=24961) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:01:44.309+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:01:44.315+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:01:44.315+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:01:44.358+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:01:44.357+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 78
+    result = dict.fromkeys(pagenames, 0) B
+                                         ^
+SyntaxError: invalid syntax
+[2024-10-19T21:01:44.359+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:01:44.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.108 seconds
+[2024-10-19T21:02:14.496+0000] {processor.py:186} INFO - Started process (PID=25032) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:02:14.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:02:14.501+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:02:14.500+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:02:14.531+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:02:14.529+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 78
+    result = dict.fromkeys(pagenames, 0) B
+                                         ^
+SyntaxError: invalid syntax
+[2024-10-19T21:02:14.532+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:02:14.575+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.087 seconds
+[2024-10-19T21:02:44.786+0000] {processor.py:186} INFO - Started process (PID=25095) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:02:44.787+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:02:44.789+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:02:44.789+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:02:44.814+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:02:44.812+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 78
+    result = dict.fromkeys(pagenames, 0) B
+                                         ^
+SyntaxError: invalid syntax
+[2024-10-19T21:02:44.816+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:02:44.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.077 seconds
+[2024-10-19T21:03:15.378+0000] {processor.py:186} INFO - Started process (PID=25156) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:03:15.380+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:03:15.382+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:03:15.381+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:03:15.408+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:03:15.406+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 78
+    result = dict.fromkeys(pagenames, 0) B
+                                         ^
+SyntaxError: invalid syntax
+[2024-10-19T21:03:15.410+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:03:15.444+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.075 seconds
+[2024-10-19T21:03:45.670+0000] {processor.py:186} INFO - Started process (PID=25215) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:03:45.672+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:03:45.675+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:03:45.675+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:03:45.809+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:03:46.531+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:03:46.530+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:03:46.693+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:03:46.692+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:03:46.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 1.118 seconds
+[2024-10-19T21:04:17.155+0000] {processor.py:186} INFO - Started process (PID=25279) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:04:17.158+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:04:17.171+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:04:17.170+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:04:17.229+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:04:17.316+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:04:17.316+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:04:17.358+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:04:17.357+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:04:17.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.262 seconds
+[2024-10-19T21:04:48.015+0000] {processor.py:186} INFO - Started process (PID=25342) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:04:48.017+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:04:48.022+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:04:48.020+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:04:48.081+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:04:48.133+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:04:48.133+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:04:48.214+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:04:48.213+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:04:48.261+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.258 seconds
+[2024-10-19T21:05:07.248+0000] {processor.py:186} INFO - Started process (PID=25381) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:07.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:05:07.252+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:05:07.251+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:07.297+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:07.326+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:05:07.326+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:05:07.365+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:05:07.365+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:05:07.410+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.170 seconds
+[2024-10-19T21:05:09.308+0000] {processor.py:186} INFO - Started process (PID=25382) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:09.310+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:05:09.312+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:05:09.312+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:09.391+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:09.434+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:05:09.434+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:05:09.479+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:05:09.478+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:05:09.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.222 seconds
+[2024-10-19T21:05:32.882+0000] {processor.py:186} INFO - Started process (PID=25440) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:32.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:05:32.887+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:05:32.886+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:32.918+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:05:32.916+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 80
+    dag = DAG(..., template_searchpath="/tmp") B
+                                               ^
+SyntaxError: invalid syntax
+[2024-10-19T21:05:32.920+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:32.959+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.089 seconds
+[2024-10-19T21:05:35.588+0000] {processor.py:186} INFO - Started process (PID=25445) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:35.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:05:35.592+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:05:35.591+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:35.623+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:05:35.620+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 80
+    dag = DAG(..., template_searchpath="/tmp") B
+                                               ^
+SyntaxError: invalid syntax
+[2024-10-19T21:05:35.625+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:35.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.095 seconds
+[2024-10-19T21:05:38.189+0000] {processor.py:186} INFO - Started process (PID=25448) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:38.190+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:05:38.192+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:05:38.192+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:38.219+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:05:38.217+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 80
+    dag = DAG(..., template_searchpath="/tmp") B
+                                               ^
+SyntaxError: invalid syntax
+[2024-10-19T21:05:38.220+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:38.258+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.079 seconds
+[2024-10-19T21:05:40.274+0000] {processor.py:186} INFO - Started process (PID=25449) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:40.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:05:40.277+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:05:40.277+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:40.333+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:05:40.323+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/rockets/capstone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rockets/capstone.py", line 80, in <module>
+    dag = DAG(..., template_searchpath="/tmp")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 53, in validate_key
+    raise TypeError(f"The key has to be a string and is {type(k)}:{k}")
+TypeError: The key has to be a string and is <class 'ellipsis'>:Ellipsis
+[2024-10-19T21:05:40.336+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:05:40.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.104 seconds
+[2024-10-19T21:06:11.258+0000] {processor.py:186} INFO - Started process (PID=25512) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:06:11.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:06:11.262+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:06:11.261+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:06:11.330+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:06:11.320+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:06:11.334+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:06:11.537+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:06:11.537+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:06:11.581+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:06:11.580+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:06:11.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.384 seconds
+[2024-10-19T21:06:42.654+0000] {processor.py:186} INFO - Started process (PID=25574) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:06:42.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:06:42.663+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:06:42.661+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:06:42.708+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:06:42.702+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:06:42.714+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:06:42.765+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:06:42.765+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:06:42.846+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:06:42.846+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:06:42.890+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.252 seconds
+[2024-10-19T21:07:12.972+0000] {processor.py:186} INFO - Started process (PID=25637) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:07:12.974+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:07:12.977+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:07:12.976+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:07:13.030+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:07:13.028+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:07:13.035+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:07:13.073+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:07:13.072+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:07:13.122+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:07:13.121+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:07:13.157+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.197 seconds
+[2024-10-19T21:07:43.313+0000] {processor.py:186} INFO - Started process (PID=25700) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:07:43.316+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:07:43.318+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:07:43.318+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:07:43.360+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:07:43.359+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:07:43.365+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:07:43.398+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:07:43.397+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:07:43.441+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:07:43.440+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:07:43.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.179 seconds
+[2024-10-19T21:08:14.003+0000] {processor.py:186} INFO - Started process (PID=25763) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:08:14.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:08:14.014+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:08:14.011+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:08:14.255+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:08:14.251+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:08:14.260+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:08:14.303+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:08:14.302+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:08:14.368+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:08:14.368+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:08:14.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.552 seconds
+[2024-10-19T21:08:45.164+0000] {processor.py:186} INFO - Started process (PID=25826) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:08:45.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:08:45.171+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:08:45.170+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:08:45.235+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:08:45.233+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:08:45.244+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:08:45.440+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:08:45.439+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:08:45.642+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:08:45.641+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:08:45.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.625 seconds
+[2024-10-19T21:09:15.906+0000] {processor.py:186} INFO - Started process (PID=25896) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:09:15.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:09:15.912+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:09:15.911+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:09:15.962+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:09:15.959+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:09:15.968+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:09:16.025+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:09:16.025+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:09:16.096+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:09:16.096+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:09:16.144+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.258 seconds
+[2024-10-19T21:09:46.459+0000] {processor.py:186} INFO - Started process (PID=25960) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:09:46.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:09:46.463+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:09:46.462+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:09:46.512+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:09:46.509+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:09:46.517+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:09:46.580+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:09:46.579+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:09:46.637+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:09:46.636+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:09:46.683+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.236 seconds
+[2024-10-19T21:10:16.979+0000] {processor.py:186} INFO - Started process (PID=26020) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:10:16.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:10:16.995+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:10:16.994+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:10:17.187+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:10:17.175+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:10:17.223+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:10:17.386+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:10:17.385+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:10:17.532+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:10:17.531+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:10:17.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.708 seconds
+[2024-10-19T21:10:48.484+0000] {processor.py:186} INFO - Started process (PID=26083) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:10:48.492+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:10:48.502+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:10:48.497+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:10:48.599+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:10:48.597+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:10:48.604+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:10:48.651+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:10:48.650+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:10:48.719+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:10:48.719+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:10:48.769+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.359 seconds
+[2024-10-19T21:11:19.095+0000] {processor.py:186} INFO - Started process (PID=26147) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:11:19.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:11:19.101+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:19.100+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:11:19.159+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:19.157+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:11:19.163+0000] {processor.py:925} INFO - DAG(s) 'stocksense' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:11:19.201+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:19.201+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:11:19.253+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:19.252+0000] {dag.py:4156} INFO - Setting next_dagrun for stocksense to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:11:19.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.239 seconds
+[2024-10-19T21:11:33.088+0000] {processor.py:186} INFO - Started process (PID=26175) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:11:33.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:11:33.146+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:33.145+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:11:33.298+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:33.295+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:11:33.306+0000] {processor.py:925} INFO - DAG(s) 'capsto' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:11:33.559+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:33.557+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:capsto
+[2024-10-19T21:11:33.581+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:33.581+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:capsto
+[2024-10-19T21:11:33.600+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:33.600+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:capsto
+[2024-10-19T21:11:33.622+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:33.622+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:capsto
+[2024-10-19T21:11:33.637+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:33.636+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:capsto
+[2024-10-19T21:11:33.651+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:33.651+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:capsto
+[2024-10-19T21:11:33.667+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:33.666+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:capsto
+[2024-10-19T21:11:33.669+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:33.668+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:11:33.706+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:33.705+0000] {dag.py:3252} INFO - Creating ORM DAG for capsto
+[2024-10-19T21:11:34.003+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:34.003+0000] {dag.py:4156} INFO - Setting next_dagrun for capsto to 2024-10-18 00:00:00+00:00, run_after=2024-10-18 01:00:00+00:00
+[2024-10-19T21:11:34.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 1.051 seconds
+[2024-10-19T21:11:34.490+0000] {processor.py:186} INFO - Started process (PID=26178) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:11:34.491+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:11:34.494+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:34.493+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:11:34.572+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:34.570+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:11:34.578+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:11:34.802+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:34.800+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:capstone
+[2024-10-19T21:11:34.829+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:34.829+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:capstone
+[2024-10-19T21:11:34.846+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:34.845+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:capstone
+[2024-10-19T21:11:34.864+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:34.864+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:capstone
+[2024-10-19T21:11:34.880+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:34.879+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:capstone
+[2024-10-19T21:11:34.909+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:34.908+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:capstone
+[2024-10-19T21:11:34.956+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:34.955+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:capstone
+[2024-10-19T21:11:35.002+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:35.000+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:11:35.055+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:35.055+0000] {dag.py:3252} INFO - Creating ORM DAG for capstone
+[2024-10-19T21:11:35.078+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:11:35.077+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-18 00:00:00+00:00, run_after=2024-10-18 01:00:00+00:00
+[2024-10-19T21:11:35.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.650 seconds
+[2024-10-19T21:12:05.425+0000] {processor.py:186} INFO - Started process (PID=26241) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:12:05.427+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:12:05.433+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:12:05.432+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:12:05.515+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:12:05.512+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:12:05.522+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:12:05.585+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:12:05.584+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:12:05.667+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:12:05.666+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-18 00:00:00+00:00, run_after=2024-10-18 01:00:00+00:00
+[2024-10-19T21:12:05.736+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.331 seconds
+[2024-10-19T21:12:36.110+0000] {processor.py:186} INFO - Started process (PID=26304) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:12:36.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:12:36.117+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:12:36.117+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:12:36.188+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:12:36.186+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:12:36.194+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:12:36.248+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:12:36.247+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:12:36.308+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:12:36.308+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-18 00:00:00+00:00, run_after=2024-10-18 01:00:00+00:00
+[2024-10-19T21:12:36.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.267 seconds
+[2024-10-19T21:13:06.643+0000] {processor.py:186} INFO - Started process (PID=26366) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:13:06.647+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:13:06.651+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:13:06.650+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:13:06.726+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:13:06.724+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:13:06.731+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:13:06.776+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:13:06.775+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:13:06.847+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:13:06.846+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-18 00:00:00+00:00, run_after=2024-10-18 01:00:00+00:00
+[2024-10-19T21:13:06.916+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.298 seconds
+[2024-10-19T21:13:37.283+0000] {processor.py:186} INFO - Started process (PID=26432) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:13:37.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:13:37.301+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:13:37.300+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:13:37.719+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:13:37.717+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:13:37.729+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:13:37.781+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:13:37.780+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:13:37.936+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:13:37.935+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-18 14:00:00+00:00, run_after=2024-10-18 15:00:00+00:00
+[2024-10-19T21:13:38.034+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.785 seconds
+[2024-10-19T21:14:23.653+0000] {processor.py:186} INFO - Started process (PID=26498) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:14:23.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:14:23.682+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:14:23.681+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:14:24.017+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:14:23.982+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:14:24.061+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:14:24.405+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:14:24.404+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:14:24.713+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:14:24.713+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-18 15:00:00+00:00, run_after=2024-10-18 16:00:00+00:00
+[2024-10-19T21:14:25.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 1.464 seconds
+[2024-10-19T21:15:06.234+0000] {processor.py:186} INFO - Started process (PID=26558) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:15:06.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:15:06.264+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:15:06.263+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:15:06.420+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:15:06.415+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:15:06.441+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:15:06.543+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:15:06.542+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:15:06.713+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:15:06.709+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-18 18:00:00+00:00, run_after=2024-10-18 19:00:00+00:00
+[2024-10-19T21:15:06.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.711 seconds
+[2024-10-19T21:15:44.282+0000] {processor.py:186} INFO - Started process (PID=26621) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:15:44.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:15:44.317+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:15:44.316+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:15:44.509+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:15:44.506+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:15:44.543+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:15:44.793+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:15:44.793+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:15:45.043+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:15:45.040+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-18 22:00:00+00:00, run_after=2024-10-18 23:00:00+00:00
+[2024-10-19T21:15:45.203+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.980 seconds
+[2024-10-19T21:16:17.881+0000] {processor.py:186} INFO - Started process (PID=26655) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:16:17.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:16:17.894+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:16:17.893+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:16:18.041+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:16:18.039+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:16:18.064+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:16:18.131+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:16:18.131+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:16:18.322+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:16:18.321+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 04:00:00+00:00, run_after=2024-10-19 05:00:00+00:00
+[2024-10-19T21:16:18.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.627 seconds
+[2024-10-19T21:16:55.030+0000] {processor.py:186} INFO - Started process (PID=26718) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:16:55.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:16:55.060+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:16:55.059+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:16:55.324+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:16:55.312+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:16:55.370+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:16:55.512+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:16:55.512+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:16:55.603+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:16:55.601+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 12:00:00+00:00, run_after=2024-10-19 13:00:00+00:00
+[2024-10-19T21:16:55.769+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.771 seconds
+[2024-10-19T21:17:30.971+0000] {processor.py:186} INFO - Started process (PID=26762) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:17:30.975+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:17:30.979+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:17:30.978+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:17:31.128+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:17:31.121+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:17:31.140+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:17:31.375+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:17:31.375+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:17:31.613+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:17:31.612+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 14:00:00+00:00, run_after=2024-10-19 15:00:00+00:00
+[2024-10-19T21:17:33.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 2.194 seconds
+[2024-10-19T21:18:07.433+0000] {processor.py:186} INFO - Started process (PID=26824) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:18:07.440+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:18:07.443+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:18:07.442+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:18:07.537+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:18:07.531+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:18:07.555+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:18:07.636+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:18:07.635+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:18:07.710+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:18:07.710+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 16:00:00+00:00, run_after=2024-10-19 17:00:00+00:00
+[2024-10-19T21:18:08.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.788 seconds
+[2024-10-19T21:18:39.709+0000] {processor.py:186} INFO - Started process (PID=26873) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:18:39.714+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:18:39.727+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:18:39.719+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:18:39.817+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:18:39.814+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:18:39.823+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:18:39.899+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:18:39.893+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:18:40.088+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:18:40.086+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:18:40.241+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.557 seconds
+[2024-10-19T21:19:11.150+0000] {processor.py:186} INFO - Started process (PID=26928) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:19:11.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:19:11.160+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:19:11.158+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:19:11.240+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:19:11.230+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:19:11.262+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:19:11.315+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:19:11.314+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:19:11.784+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:19:11.784+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:19:11.852+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.716 seconds
+[2024-10-19T21:19:43.165+0000] {processor.py:186} INFO - Started process (PID=26991) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:19:43.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:19:43.171+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:19:43.170+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:19:43.236+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:19:43.234+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:19:43.245+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:19:43.298+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:19:43.297+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:19:43.703+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:19:43.702+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:19:43.760+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.658 seconds
+[2024-10-19T21:20:14.906+0000] {processor.py:186} INFO - Started process (PID=27054) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:20:14.908+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:20:14.910+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:20:14.910+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:20:14.954+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:20:14.953+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:20:14.960+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:20:15.018+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:20:15.018+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:20:15.098+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:20:15.098+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:20:15.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.597 seconds
+[2024-10-19T21:20:45.780+0000] {processor.py:186} INFO - Started process (PID=27117) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:20:45.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:20:45.791+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:20:45.790+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:20:45.839+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:20:45.837+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:20:45.843+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:20:45.900+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:20:45.899+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:20:45.972+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:20:45.971+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:20:46.040+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.287 seconds
+[2024-10-19T21:21:16.697+0000] {processor.py:186} INFO - Started process (PID=27177) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:21:16.708+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:21:16.712+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:21:16.711+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:21:16.919+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:21:16.915+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:21:16.926+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:21:17.061+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:21:17.061+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:21:17.233+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:21:17.232+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:21:17.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.712 seconds
+[2024-10-19T21:21:48.145+0000] {processor.py:186} INFO - Started process (PID=27239) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:21:48.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:21:48.149+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:21:48.149+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:21:48.205+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:21:48.203+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:21:48.212+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:21:48.282+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:21:48.282+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:21:48.338+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:21:48.338+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:21:48.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.253 seconds
+[2024-10-19T21:22:18.841+0000] {processor.py:186} INFO - Started process (PID=27302) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:22:18.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:22:18.847+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:22:18.846+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:22:18.895+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:22:18.892+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:22:18.900+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:22:18.939+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:22:18.938+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:22:18.988+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:22:18.988+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:22:19.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.212 seconds
+[2024-10-19T21:22:49.271+0000] {processor.py:186} INFO - Started process (PID=27366) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:22:49.274+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:22:49.278+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:22:49.277+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:22:49.332+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:22:49.330+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:22:49.337+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:22:49.391+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:22:49.391+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:22:49.446+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:22:49.446+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:22:49.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.266 seconds
+[2024-10-19T21:23:20.067+0000] {processor.py:186} INFO - Started process (PID=27428) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:23:20.070+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:23:20.074+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:23:20.072+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:23:20.146+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:23:20.143+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:23:20.154+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:23:20.214+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:23:20.214+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:23:20.319+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:23:20.319+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:23:20.383+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.335 seconds
+[2024-10-19T21:23:50.903+0000] {processor.py:186} INFO - Started process (PID=27490) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:23:50.905+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:23:50.908+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:23:50.907+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:23:50.958+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:23:50.955+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:23:50.976+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:23:51.046+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:23:51.045+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:23:51.156+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:23:51.155+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:23:51.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.314 seconds
+[2024-10-19T21:24:21.575+0000] {processor.py:186} INFO - Started process (PID=27552) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:24:21.582+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:24:21.585+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:24:21.584+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:24:21.694+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:24:21.689+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:24:21.703+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:24:21.767+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:24:21.766+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:24:21.888+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:24:21.888+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:24:22.013+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.456 seconds
+[2024-10-19T21:24:52.677+0000] {processor.py:186} INFO - Started process (PID=27614) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:24:52.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:24:52.682+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:24:52.682+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:24:52.727+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:24:52.725+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:24:52.733+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:24:52.798+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:24:52.797+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:24:52.966+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:24:52.965+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:24:53.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.382 seconds
+[2024-10-19T21:25:24.185+0000] {processor.py:186} INFO - Started process (PID=27677) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:25:24.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:25:24.203+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:25:24.202+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:25:24.370+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:25:24.368+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:25:24.376+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:25:24.518+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:25:24.518+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:25:24.598+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:25:24.598+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:25:24.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.511 seconds
+[2024-10-19T21:25:54.827+0000] {processor.py:186} INFO - Started process (PID=27739) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:25:54.830+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:25:54.836+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:25:54.835+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:25:54.903+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:25:54.901+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:25:54.909+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:25:54.949+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:25:54.949+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:25:55.125+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:25:55.124+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:25:55.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.481 seconds
+[2024-10-19T21:26:25.620+0000] {processor.py:186} INFO - Started process (PID=27808) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:26:25.622+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:26:25.624+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:26:25.624+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:26:25.704+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:26:25.702+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:26:25.710+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:26:25.765+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:26:25.765+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:26:25.834+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:26:25.833+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:26:25.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.282 seconds
+[2024-10-19T21:26:56.016+0000] {processor.py:186} INFO - Started process (PID=27871) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:26:56.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:26:56.021+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:26:56.020+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:26:56.099+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:26:56.097+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:26:56.104+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:26:56.198+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:26:56.198+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:26:56.289+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:26:56.288+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:26:56.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.365 seconds
+[2024-10-19T21:27:26.525+0000] {processor.py:186} INFO - Started process (PID=27933) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:27:26.527+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:27:26.531+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:27:26.530+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:27:26.581+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:27:26.580+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:27:26.588+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:27:26.648+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:27:26.648+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:27:26.700+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:27:26.700+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:27:26.732+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.223 seconds
+[2024-10-19T21:27:57.520+0000] {processor.py:186} INFO - Started process (PID=27995) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:27:57.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:27:57.525+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:27:57.524+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:27:57.574+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:27:57.571+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:27:57.582+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:27:57.633+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:27:57.632+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:27:57.694+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:27:57.693+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:27:57.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.248 seconds
+[2024-10-19T21:28:27.958+0000] {processor.py:186} INFO - Started process (PID=28060) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:28:27.960+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:28:27.964+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:28:27.963+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:28:28.013+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:28:28.011+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:28:28.018+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:28:28.114+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:28:28.114+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:28:28.171+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:28:28.170+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:28:28.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.288 seconds
+[2024-10-19T21:28:58.571+0000] {processor.py:186} INFO - Started process (PID=28121) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:28:58.573+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:28:58.575+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:28:58.575+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:28:58.625+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:28:58.623+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:28:58.631+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:28:58.679+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:28:58.678+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:28:58.748+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:28:58.747+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:28:58.809+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.252 seconds
+[2024-10-19T21:29:28.967+0000] {processor.py:186} INFO - Started process (PID=28184) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:29:28.969+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:29:28.971+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:29:28.971+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:29:29.022+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:29:29.020+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:29:29.026+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:29:29.067+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:29:29.067+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:29:29.113+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:29:29.113+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:29:29.154+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.201 seconds
+[2024-10-19T21:29:59.650+0000] {processor.py:186} INFO - Started process (PID=28246) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:29:59.652+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:29:59.655+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:29:59.654+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:29:59.709+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:29:59.706+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:29:59.714+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:29:59.773+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:29:59.773+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:29:59.833+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:29:59.833+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:29:59.883+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.249 seconds
+[2024-10-19T21:30:30.242+0000] {processor.py:186} INFO - Started process (PID=28309) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:30:30.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:30:30.248+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:30:30.247+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:30:30.344+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:30:30.340+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:30:30.349+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:30:30.406+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:30:30.406+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:30:30.470+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:30:30.469+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:30:30.517+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.305 seconds
+[2024-10-19T21:31:00.700+0000] {processor.py:186} INFO - Started process (PID=28371) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:31:00.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:31:00.729+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:31:00.727+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:31:00.811+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:31:00.808+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:31:00.820+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:31:00.897+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:31:00.897+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:31:00.985+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:31:00.984+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:31:01.069+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.392 seconds
+[2024-10-19T21:31:31.429+0000] {processor.py:186} INFO - Started process (PID=28434) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:31:31.431+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:31:31.434+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:31:31.433+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:31:31.483+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:31:31.480+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:31:31.487+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:31:31.531+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:31:31.530+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:31:31.616+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:31:31.616+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:31:31.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.278 seconds
+[2024-10-19T21:32:01.893+0000] {processor.py:186} INFO - Started process (PID=28497) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:32:01.896+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:32:01.899+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:32:01.899+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:32:01.970+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:32:01.968+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:32:01.974+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:32:02.012+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:32:02.012+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:32:02.061+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:32:02.061+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:32:02.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.283 seconds
+[2024-10-19T21:32:33.347+0000] {processor.py:186} INFO - Started process (PID=28559) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:32:33.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:32:33.362+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:32:33.360+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:32:33.474+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:32:33.468+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:32:33.483+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:32:33.538+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:32:33.537+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:32:33.605+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:32:33.605+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:32:33.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.329 seconds
+[2024-10-19T21:33:03.987+0000] {processor.py:186} INFO - Started process (PID=28621) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:33:03.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:33:03.993+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:33:03.992+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:33:04.098+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:33:04.091+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:33:04.116+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:33:04.282+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:33:04.282+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:33:04.382+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:33:04.381+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:33:04.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.479 seconds
+[2024-10-19T21:33:35.542+0000] {processor.py:186} INFO - Started process (PID=28685) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:33:35.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:33:35.548+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:33:35.547+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:33:35.627+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:33:35.624+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:33:35.633+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:33:35.727+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:33:35.726+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:33:35.863+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:33:35.862+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:33:35.960+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.440 seconds
+[2024-10-19T21:34:06.248+0000] {processor.py:186} INFO - Started process (PID=28748) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:34:06.250+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:34:06.254+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:34:06.253+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:34:06.325+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:34:06.323+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:34:06.333+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:34:06.440+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:34:06.440+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:34:06.558+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:34:06.557+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:34:06.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.393 seconds
+[2024-10-19T21:34:36.984+0000] {processor.py:186} INFO - Started process (PID=28812) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:34:36.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:34:36.997+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:34:36.996+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:34:37.069+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:34:37.066+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:34:37.075+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:34:37.157+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:34:37.156+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:34:37.222+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:34:37.221+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:34:37.270+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.315 seconds
+[2024-10-19T21:35:07.450+0000] {processor.py:186} INFO - Started process (PID=28875) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:35:07.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:35:07.456+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:35:07.455+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:35:07.513+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:35:07.510+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:35:07.519+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:35:07.575+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:35:07.575+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:35:07.641+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:35:07.641+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:35:07.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.246 seconds
+[2024-10-19T21:35:39.016+0000] {processor.py:186} INFO - Started process (PID=28933) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:35:39.049+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:35:39.111+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:35:39.082+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:35:40.819+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:35:40.816+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:35:40.880+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:35:41.326+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:35:41.326+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:35:41.882+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:35:41.882+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:35:42.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 3.386 seconds
+[2024-10-19T21:36:12.476+0000] {processor.py:186} INFO - Started process (PID=28996) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:36:12.478+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:36:12.482+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:36:12.481+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:36:12.553+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:36:12.541+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:36:12.574+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:36:12.683+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:36:12.682+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:36:12.752+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:36:12.751+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:36:12.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.361 seconds
+[2024-10-19T21:36:43.194+0000] {processor.py:186} INFO - Started process (PID=29059) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:36:43.195+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:36:43.211+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:36:43.210+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:36:43.296+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:36:43.293+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:36:43.312+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:36:43.366+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:36:43.365+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:36:43.457+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:36:43.457+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:36:43.523+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.344 seconds
+[2024-10-19T21:37:13.838+0000] {processor.py:186} INFO - Started process (PID=29121) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:37:13.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:37:13.844+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:37:13.843+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:37:13.902+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:37:13.900+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:37:13.907+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:37:13.961+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:37:13.961+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:37:14.032+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:37:14.032+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:37:14.089+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.272 seconds
+[2024-10-19T21:37:44.888+0000] {processor.py:186} INFO - Started process (PID=29184) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:37:44.890+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:37:44.893+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:37:44.892+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:37:44.937+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:37:44.934+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:37:44.942+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:37:44.983+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:37:44.982+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:37:45.089+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:37:45.088+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:37:45.169+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 0.315 seconds
+[2024-10-19T21:38:16.286+0000] {processor.py:186} INFO - Started process (PID=29247) to work on /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:38:16.292+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rockets/capstone.py for tasks to queue
+[2024-10-19T21:38:16.303+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:38:16.294+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:38:16.494+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:38:16.492+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /tmp/postgres_query.sql
+[2024-10-19T21:38:16.509+0000] {processor.py:925} INFO - DAG(s) 'capstone' retrieved from /opt/airflow/dags/rockets/capstone.py
+[2024-10-19T21:38:16.654+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:38:16.653+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-19T21:38:17.313+0000] {logging_mixin.py:190} INFO - [2024-10-19T21:38:17.310+0000] {dag.py:4156} INFO - Setting next_dagrun for capstone to 2024-10-19 21:00:00+00:00, run_after=2024-10-19 22:00:00+00:00
+[2024-10-19T21:38:17.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rockets/capstone.py took 1.705 seconds
