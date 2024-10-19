@@ -21,7 +21,7 @@ Docker: (if using Docker for deployment)
 
 <h3>Setup</h3>
 <h4>Clone the Repository:</h4>
-git clone https://github.com/USERNAME/my-airflow-project.git
+git clone https://github.com/yousraiq/airflow_assignment.git
 cd my-airflow-project
 
 <h4>Set Up PostgreSQL:<h4>
